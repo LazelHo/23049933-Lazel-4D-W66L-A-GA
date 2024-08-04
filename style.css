@@ -1,0 +1,64 @@
+body {
+    background-image: url('sky-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    width: auto;
+}
+
+h3{
+    color:black;
+    
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+.box{
+    background-color: white;
+    padding:0.5rem;
+    min-height: 300px;
+    max-width:300px;
+    width:100%;
+    margin:auto;
+}
+
+.slider-label {
+    position: relative;
+    margin-top: 30px; /* Adjust as needed */
+}
+.slider-label:before {
+    content: attr(data-min);
+    position: absolute;
+    top: 0;
+    left: -30px; /* Adjust position */
+}
+.slider-label:after {
+    content: attr(data-max);
+    position: absolute;
+    top: 0;
+    right: -40px; /* Adjust position */
+}
